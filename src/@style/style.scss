@@ -1,0 +1,8 @@
+@import './font.scss';
+@import './color-scheme.scss';
+
+#root {
+    background-color: var(--color1);
+    color: var(--color4);
+    overflow: auto;
+}

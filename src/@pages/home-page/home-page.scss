@@ -1,0 +1,43 @@
+.home-page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    .prime-info {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        .large {
+            font-size: 3rem;
+            color: var(--color5)
+        }
+        .rest {
+            font-size: 1.25rem;
+            color: var(--color3)
+        }
+    }
+    .middle-box {
+        width: 50%;
+        display: flex;
+        padding: 1rem;
+        box-shadow: 0 0 0.5rem 0.01rem rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        max-width: 150rem;
+    }
+
+    .project-list {
+        max-width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+        max-width: 150rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
