@@ -1,0 +1,13 @@
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    img {
+        width: 7rem;
+        transition: all 0.5s;
+        cursor: pointer;
+        &:hover {
+            transform: rotateZ(360deg) scale(0.75);
+        }
+    }
+}
