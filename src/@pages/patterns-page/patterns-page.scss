@@ -1,0 +1,10 @@
+.patterns-page {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 8rem;
+    .pattern {
+        border: 1px solid wheat;
+        height: 100%;
+        display: flex;
+    }
+}
